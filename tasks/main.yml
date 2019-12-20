@@ -16,7 +16,7 @@
       #!/bin/bash
       yum install wget vim -y
       yum install epel-release -y
-      yum install ansible -y
+      yum install ansible git -y
       wget -O- https://get.docker.com/ | sh
       systemctl status docker
       systemctl start docker
@@ -30,6 +30,7 @@
       ansible-playbook nginx.yaml
       wget -O /root/.ansible/roles/geerlingguy.jenkins/molecule/default/jenkins.yml https://gist.github.com/hemanth22/3b0970dc0c24efd9261bbac304ba9dc2/raw
       ansible-playbook /root/.ansible/roles/geerlingguy.jenkins/molecule/default/jenkins.yml
+      usermod -a -G docker jenkins
       wget -O jenkins_config.yaml https://gist.github.com/hemanth22/0b7d71fe3fab06bf2dbb5536f3f2013e/raw
       ansible-playbook jenkins_config.yaml
     wait: true
