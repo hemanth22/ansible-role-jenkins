@@ -3,8 +3,10 @@ Role Name : jenkins
 
 This ansible role will install jenkins in the aws ec2 using centos7 images.
 
+[![Build Status](https://travis-ci.org/hemanth22/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-jenkins)
+
 default Username: admin  
-default Password: password  
+default Password: admin  
 default Port: 8080
 
 Requirements
