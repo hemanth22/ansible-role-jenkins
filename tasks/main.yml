@@ -16,7 +16,7 @@
       #!/bin/bash
       yum install wget vim -y
       yum install epel-release -y
-      yum install ansible git -y
+      yum install ansible git bcrypt -y
       wget -O- https://get.docker.com/ | sh
       systemctl status docker
       systemctl start docker
