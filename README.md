@@ -7,7 +7,7 @@ This ansible role will install jenkins in the aws ec2 using centos7 images.
 
 default Username: admin  
 default Password: admin  
-default Port: 8080
+default Port: 80
 
 Requirements
 ------------
