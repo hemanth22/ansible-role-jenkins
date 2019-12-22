@@ -26,6 +26,6 @@ after_failure:
   - ./createIssue.sh
 
 notifications:
- slack:
-   rooms:
-     - nothingorganization:GN1JzklSpbMyfZVWcS05U6a0#mygitrepos
+  slack:
+    rooms:
+      - nothingorganization:GN1JzklSpbMyfZVWcS05U6a0#mygitrepos
