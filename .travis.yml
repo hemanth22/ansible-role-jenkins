@@ -26,4 +26,6 @@ after_failure:
   - ./createIssue.sh
 
 notifications:
-  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+ slack:
+   rooms:
+     - nothingorganization:GN1JzklSpbMyfZVWcS05U6a0#mygitrepos
