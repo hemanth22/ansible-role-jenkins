@@ -22,7 +22,7 @@ Try exploring defaults/main.yml in the github to understand which variables can 
 Dependencies
 ------------
 
-None
+None.
 
 Example Playbook
 ----------------
