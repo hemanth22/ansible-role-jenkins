@@ -4,9 +4,6 @@
   pip:
     name: boto
 
-- name: check if jenkins is already launched
-
-
 - name: Launch instance
   ec2:
     aws_access_key: "{{ ec2_access_key }}"
