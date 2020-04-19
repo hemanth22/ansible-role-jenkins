@@ -47,6 +47,9 @@
         delete_on_termination: true
     vpc_subnet_id: "{{ vpc_subnet_id }}"
     assign_public_ip: true
+    count_tag:
+      Name: Jenkins
+    exact_count: 1
   register: ec2
 
 - name: Add new instance to host group
