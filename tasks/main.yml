@@ -37,7 +37,7 @@
     wait: true
     wait_timeout: 500
     instance_tags:
-      Name: Jenkins
+      Name: JenkinServer
       Environment: Production
     region: "{{ region }}"
     volumes:
@@ -48,7 +48,7 @@
     vpc_subnet_id: "{{ vpc_subnet_id }}"
     assign_public_ip: true
     count_tag:
-      Name: Jenkins
+      Name: JenkinServer
     exact_count: 1
   register: ec2
 
