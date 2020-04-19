@@ -20,10 +20,8 @@ provisioner:
   env:
     ANSIBLE_KEY: $access_key
     ANSIBLE_VAL: $secret_key
-  lint:
-    name: ansible-lint
   playbooks:
-    converge: ${MOLECULE_PLAYBOOK:-playbook.yml}
+    converge: ${MOLECULE_PLAYBOOK:-converge.yml}
 scenario:
   name: default
   test_sequence:
