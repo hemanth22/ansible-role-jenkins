@@ -22,17 +22,3 @@ provisioner:
     ANSIBLE_VAL: $secret_key
   playbooks:
     converge: ${MOLECULE_PLAYBOOK:-converge.yml}
-scenario:
-  name: default
-  test_sequence:
-    - lint
-    - destroy
-    - syntax
-    - create
-    - converge
-    - verify
-    - destroy
-verifier:
-  name: testinfra
-  lint:
-    name: flake8
