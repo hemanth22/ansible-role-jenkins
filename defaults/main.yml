@@ -1,7 +1,7 @@
 ---
 # defaults file for jenkins
 keypair: hemanth
-id: i-jenkins
+id: i-5s5654gs6ffdg165
 instance_type: t2.micro
 security_group: sg-0fa454335a1f75b19
 image: ami-01ed306a12b7d1c96
