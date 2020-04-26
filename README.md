@@ -55,4 +55,4 @@ MIT / BSD
 Author Information
 ------------------
 
-This role was created in 2019 by Hemanth BITRA.
+This role was created in 2019 by Hemanth BITRA
