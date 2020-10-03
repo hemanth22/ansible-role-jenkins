@@ -1,11 +1,12 @@
 ---
 # defaults file for jenkins
-keypair: hemanth
+keypair: bitroid
+id: i-5s5654gs6ffdg165
 instance_type: t2.micro
-security_group: sg-0fa454335a1f75b19
+security_group: sg-090c080efee992a15
 image: ami-01ed306a12b7d1c96
-vpc_subnet_id: subnet-05078fa4222866fef
-volume_size: 30
+vpc_subnet_id: subnet-040259e5034858090
+volume_size: 10
 region: us-west-2
 ec2_access_key: ABCD
 ec2_secret_key: EFGH

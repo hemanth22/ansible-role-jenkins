@@ -1,7 +1,7 @@
 Role Name : jenkins
 =========
 
-This ansible role will install jenkins in the aws ec2 using centos7 images.
+This ansible role will install jenkins in the AWS ec2 using centos7 images.
 
 [![Build Status](https://travis-ci.org/hemanth22/ansible-role-jenkins.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-jenkins)
 
@@ -22,7 +22,7 @@ Try exploring defaults/main.yml in the github to understand which variables can 
 Dependencies
 ------------
 
-None.
+None
 
 Example Playbook
 ----------------
@@ -55,4 +55,4 @@ MIT / BSD
 Author Information
 ------------------
 
-This role was created in 2019 by Hemanth BITRA.
+This role was created in 2019 by Hemanth BITRA
