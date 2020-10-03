@@ -6,7 +6,7 @@
   vars:
     keypair: hemanth
     instance_type: t2.medium
-    security_group: sg-0fa454335a1f75b19
+    security_group: sg-090c080efee992a15
     volume_size: 30
     region: us-west-2
     ec2_access_key: "{{ lookup('env', 'ANSIBLE_KEY') }}"
