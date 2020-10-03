@@ -9,7 +9,6 @@
     aws_access_key: "{{ ec2_access_key }}"
     aws_secret_key: "{{ ec2_secret_key }}"
     key_name: "{{ keypair }}"
-    id: "{{ id }}"
     group_id: "{{ security_group }}"
     instance_type: "{{ instance_type }}"
     image: "{{ image }}"
@@ -47,9 +46,6 @@
         delete_on_termination: true
     vpc_subnet_id: "{{ vpc_subnet_id }}"
     assign_public_ip: true
-    count_tag:
-      Name: Jenkins
-    exact_count: 1
   register: ec2
 
 - name: Add new instance to host group
