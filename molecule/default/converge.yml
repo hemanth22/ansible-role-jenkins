@@ -12,4 +12,5 @@
     ec2_access_key: "{{ lookup('env', 'ANSIBLE_KEY') }}"
     ec2_secret_key: "{{ lookup('env', 'ANSIBLE_VAL') }}"
   roles:
-    - hemanth22.jenkins
+    - role: hemanth22.jenkins
+      tags: molecule-idempotence-notest
