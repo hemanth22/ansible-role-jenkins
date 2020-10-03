@@ -26,6 +26,7 @@
       yum install -y docker-compose
       ansible-galaxy install geerlingguy.nginx
       ansible-galaxy install geerlingguy.jenkins
+      ansible-galaxy install geerlingguy.java
       wget -O nginx.yaml https://gist.github.com/hemanth22/d3b7fd2693c5d2d44804d420f79bfb18/raw
       ansible-playbook nginx.yaml
       wget -O /root/.ansible/roles/geerlingguy.jenkins/molecule/default/jenkins.yml https://gist.github.com/hemanth22/3b0970dc0c24efd9261bbac304ba9dc2/raw

@@ -4,10 +4,10 @@
   become: true
   gather_facts: false
   vars:
-    keypair: hemanth
+    keypair: bitroid
     instance_type: t2.medium
     security_group: sg-090c080efee992a15
-    volume_size: 30
+    volume_size: 10
     region: us-west-2
     ec2_access_key: "{{ lookup('env', 'ANSIBLE_KEY') }}"
     ec2_secret_key: "{{ lookup('env', 'ANSIBLE_VAL') }}"
