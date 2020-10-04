@@ -31,6 +31,6 @@ notifications:
     rooms:
       - nothingorganization:GN1JzklSpbMyfZVWcS05U6a0#mygitrepos
   webhooks:
-     urls:
-       if: branch != develop
-         - https://galaxy.ansible.com/api/v1/notifications/
+    urls:
+      if: branch != develop
+      - https://galaxy.ansible.com/api/v1/notifications/
